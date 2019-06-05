@@ -21,13 +21,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/brycedorn/react-intense"
+    "url": "git+https://gitlab.com/brycedorn/react-intense.git"
   },
-  "author": {
-    "name": "Bryce Dorn",
-    "email": "brycedorn@gmail.com",
-    "url": "http://www.bryce.io"
-  },
+  "author": "Bryce Dorn <brycedorn@gmail.com> (http://www.bryce.io)",
   "license": "MIT",
   "bugs": {
     "url": "https://gitlab.com/brycedorn/react-intense/issues"
@@ -43,6 +39,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "autobind-decorator": "^2.1.0",
+    "babel-cli": "^6.26.0",
     "babel-loader": "^8.0.5",
     "babel-preset-minify": "^0.5.0",
     "css-loader": "^2.1.0",
@@ -63,5 +60,8 @@
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
